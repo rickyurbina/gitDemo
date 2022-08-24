@@ -1,7 +1,9 @@
 <?php
 session_start();
 if (isset($_SESSION["nombre"])){
+echo $_SESSION["nombre"];
 }
+
 else{
 	echo '<script>window.location="../";</script>';
 }
@@ -14,8 +16,12 @@ else{
 }
 setlocale(LC_ALL,"es_ES");    
 ?>
+
 <!doctype html>
+
+
 <html lang="en" dir="ltr">
+
 	<head>
 	<meta charset="UTF-8">
 		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
@@ -117,7 +123,24 @@ setlocale(LC_ALL,"es_ES");
 					</div>
 				</div>
 				<!-- Sidebar menu-->
-				<?php include "menu.php"; ?>
+				<?php
+
+
+					if($_SESSION["permisos"] == "administrador"){
+				
+						include "menu.php";
+						
+					}else{
+
+						include "menuusuario.php";
+						
+					}
+				
+
+			
+				
+				
+				 ?>
 
 
 

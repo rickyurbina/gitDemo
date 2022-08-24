@@ -47,7 +47,7 @@
 						</li>
 
 						
-						<li class="slide <?php if ($pagina == 'socioAdd' || $pagina == 'socioList' ) echo 'is-expanded'; ?>">
+						<!-- <li class="slide <?php if ($pagina == 'socioAdd' || $pagina == 'socioList' ) echo 'is-expanded'; ?>">
 							<a class="side-menu__item 
 								<?php if ($pagina == 'socioAdd' || $pagina == 'socioList' ) 
 										echo 'active'; ?>" data-toggle="slide" href="#">
@@ -67,7 +67,7 @@
 
 							</ul>
 						</li>
-				
+				 -->
 						<li class="slide <?php if ($pagina == 'proveedorAdd' || $pagina == 'proveedorList' ) echo 'is-expanded'; ?>">
 							<a class="side-menu__item 
 								<?php if ($pagina == 'proveedorAdd' || $pagina == 'proveedorList' ) 
