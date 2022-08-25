@@ -137,6 +137,14 @@
 
 							</ul>
 						</li>
+
+						<ul class="side-menu">
+
+						<li class="slide <?php if ($pagina == 'ventas') echo 'is-expanded'; ?>">
+								<a class="side-menu__item <?php if ($pagina == 'ventas') echo 'active'; ?>" 
+								href="index.php?page=ventaadd"><i class="side-menu__icon fa fa-home"></i><span class="side-menu__label">Ventas</span></a>
+						</li>
+
 						
 
                         <hr>

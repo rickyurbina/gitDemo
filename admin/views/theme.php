@@ -180,7 +180,8 @@ setlocale(LC_ALL,"es_ES");
 										$pagina == "productEdit" || 
 										$pagina == "productList" || 
 										$pagina == "productStatus" ||
-										$pagina == "logOut" ){
+										$pagina == "logOut" ||
+										$pagina == "ventaadd"){
 												include "views/".$pagina.".php";
 								}
 						?>
